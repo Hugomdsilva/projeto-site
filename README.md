@@ -1,2 +1,2 @@
 # projeto-site
- projeto com meu amigo
+ projeto de site usando Flask
