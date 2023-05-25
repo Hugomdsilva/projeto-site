@@ -1,7 +1,7 @@
 *
 {
     margin: 0;
-''    --border-one: 7px;
+    --border-one: 7px;
 }
 
 body
@@ -30,7 +30,7 @@ header
 #login-form-container
 {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     border-radius: var(--border-one);
     transform: translateY(-50%);
     top: 50%;
@@ -92,7 +92,6 @@ header
 {
     flex-direction: column;
     align-items: center;
-    padding: 3% 0;
     display: flex;
     width: 100%;
 }
@@ -105,7 +104,6 @@ header
 color: white;
 font-weight: 200;
 font-size: 0.8vw;
-margin: 2%;
 width: 80%;
 height: 3vw;
 border-radius: var(--border-one);
@@ -154,7 +152,25 @@ box-shadow: 0px 1px 2px 0px gray;
     color: rgba(42, 23, 112, 0.7);
     font-size: 0.8vw;
     width: 80%;
-
+               
+}
+#login-form-register
+{
+    font-size: 1vw;
+}
+#login-form-register>hr
+{
+color:red;
+background-color: #2a1770;
+width: 40%;
+height: 0.05vw;
+transform: translateY(0.7vw);
+z-index: 0;
+}
+#login-form-register>p
+{
+    font-size: 1.1vw;
+    text-decoration: underline;
 }
 footer
 {
