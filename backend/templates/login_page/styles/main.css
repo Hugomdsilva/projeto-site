@@ -1,8 +1,7 @@
 *
 {
     margin: 0;
-    --border-one: 7px;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+''    --border-one: 7px;
 }
 
 body
@@ -74,7 +73,7 @@ header
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 1.4vw;
     position: relative;
     justify-content: center;
@@ -97,18 +96,65 @@ header
     display: flex;
     width: 100%;
 }
+#login-form-register>img
+{
+    transform: translateY(-30%);
+}
 #login-form-register>form>button
 {
-
-border-radius: 7px;
 color: white;
 font-weight: 200;
 font-size: 0.8vw;
-border: none;
-margin: 3px;
+margin: 2%;
 width: 80%;
 height: 3vw;
+border-radius: var(--border-one);
+border: none;
 background-color: #2a1770;
+}
+#login-form-register>form>div>input::placeholder
+{
+    color:rgba(42, 23, 112, 0.7);
+    font-weight: 700;
+    font-size: 0.8vw;
+    text-indent: 3%;
+}
+#login-form-register>form>input
+{
+    border-left: 5px solid #2a1770;
+    height: 2.5vw;
+    background-color: #eff8ff;
+}
+
+#main-login-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+#login-form-register>form>div>input
+{
+height: 2.5vw;
+border-radius: var(--border-one);
+font-weight: 200;
+font-size: 0.8vw;
+border: none;
+margin: 1%;
+width: 80%;
+
+box-shadow: 0px 1px 2px 0px gray;
+}
+#login-form-register>form>div>span
+{
+    display: flex;
+    color: rgba(42, 23, 112, 0.7);
+    font-size: 0.8vw;
+    width: 80%;
+
 }
 footer
 {
