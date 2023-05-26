@@ -12,14 +12,14 @@ def create_app():
 
     db.init_app(app)
     with app.app_context():
-        db.create_all()
+        pass
 
     # printazul pra rotas de autenticação no app
     from .auth import auth as auth_blueprint
-    app.register_blueprint(auth_blueprint, name="print_autentico")
+    app.register_blueprint(auth_blueprint, name="auth")
 
     # printazul pra nao-rotas de autenticação no app
     from .main import main as main_blueprint
-    app.register_blueprint(main_blueprint, name="print_principal")
+    app.register_blueprint(main_blueprint, name="main")
 
     return app
