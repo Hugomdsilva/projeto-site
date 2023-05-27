@@ -29,7 +29,7 @@ header
     padding: 2% 0;
 
 }
-#login-form-container
+#register-form-container
 {
     display: flex;
     flex-direction: row;
@@ -48,17 +48,16 @@ header
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgb(175, 175, 175);
 }
-#login-form-container>div
+#register-form-container>div
 {
     height: 100%;
     
 }
-#login-form-login
+#register-form-register
 {
-    background-image: url(../../assets/login_page/login-background.png);
+    background-image: url(../../assets/register_page/register-background.png);
     background-repeat: no-repeat;
-    background-size: 120%;
-    background-position-x: 50%;
+    background-size: 100%;
     background-position-y: center;
     border-radius: 10px 0 0 10px;
     width: 55%;
@@ -68,7 +67,7 @@ header
     justify-content: center;
     flex-direction: column;
 }
-#login-form-register
+#register-form
 {
     color: var(--main-color);
     border-radius: 0 10px 10px 0;
@@ -76,13 +75,14 @@ header
     align-items: center;
     flex-direction: column;
     font-weight: 900;
-    font-size: 1.4rem;
+    font-size: 1rem;
     position: relative;
     justify-content: center;
     width: 45%;
     background-color: white;
 }
-#login-form-register>p
+
+#register-form>p
 {
     font-size: 0.7rem;
     width: 70%;
@@ -90,58 +90,52 @@ header
     letter-spacing: 0.05px;
     text-align: center;
 }
-#login-form-register>form
+#register-form>form
 {
     flex-direction: column;
     align-items: center;
     display: flex;
     width: 100%;
 }
-#login-form-register>img
-{
-    transform: translateY(-30%);
-}
-#login-form-register>form>button
+
+#register-form>form>button
 {
 color: white;
 font-weight: 200;
 font-size: 0.8rem;
 width: 80%;
-height: 3rem;
+height: 2.5rem;
 border-radius: var(--border-one);
 border: none;
 background-color: var(--main-color);
 }
-#login-form-register>form>div>input::placeholder
+#register-form>form>div>input::placeholder
 {
     color:var(--main-color-gray);
-    font-weight: 500;
+    font-weight:500;
     font-size: 0.8rem;
     text-indent: 3%;
 }
-#login-form-register>form>input
+#register-form>form>input
 {
 
     height: 2.5rem;
     background-color: #eff8ff;
 }
 
-#main-login-box
+#main-register-box
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin-top: 2.5%;
     width: 100%;
 }
-#main-login-box>input
+#main-register-box>input
 {
-height: 2.5rem;
+height: 2.3rem;
 border-radius: var(--border-one);
-font-weight: 200;
-font-size: 0.8rem;
 border: none;
 border-left: 5px solid var(--main-color);
 margin: 1%;
@@ -149,30 +143,25 @@ width: 80%;
 
 box-shadow: 0px 1px 2px 0px gray;
 }
-#login-form-register>form>div>span
+#register-form>form>div>span
 {
     display: flex;
+    margin: 0 0 0.6rem 0;
     color: rgba(42, 23, 112, 0.7);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     width: 80%;
+               
 }
-#login-form-register>form>div>span>a
-{
-    margin-left: auto;
-    text-decoration: none;
-display: inline-block;
-}
-#login-form-register
+#register-form-register
 {
     font-size: 1rem;
 }
 #create-account-button
 {
-    font-size: 0.8rem;
-
+    font-size: 0.9rem;
     color: var(--main-color-gray);
     width: 80%;
-    text-align: center;
+    text-align: left;
 }
 
 footer
