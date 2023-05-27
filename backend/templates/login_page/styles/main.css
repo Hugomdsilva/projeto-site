@@ -2,6 +2,8 @@
 {
     margin: 0;
     --border-one: 7px;
+    --main-color: #2a1770;
+    --main-color-gray: rgba(42, 23, 112, 0.7);
 }
 
 body
@@ -16,8 +18,8 @@ header
 }
 .logo
 {
-    width: 100px;
-    height: 75px;
+    width: 120px;
+    height: 70px;
     float: left;
 }
 #main-section
@@ -37,8 +39,8 @@ header
     position: relative;
     position: relative;
     margin: auto;
-    width: 55%;
-    height: 80%;
+    width: 55rem;
+    height: 80rem;
     min-width: 500px;
     min-height: 200px;
     max-width: 600px;
@@ -68,13 +70,13 @@ header
 }
 #login-form-register
 {
-    color: #2a1770;
+    color: var(--main-color);
     border-radius: 0 10px 10px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-weight: 900;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     position: relative;
     justify-content: center;
     width: 45%;
@@ -82,7 +84,7 @@ header
 }
 #login-form-register>p
 {
-    font-size: 0.7vw;
+    font-size: 0.7rem;
     width: 70%;
     font-weight: 700;
     letter-spacing: 0.05px;
@@ -103,24 +105,24 @@ header
 {
 color: white;
 font-weight: 200;
-font-size: 0.8vw;
+font-size: 0.8rem;
 width: 80%;
-height: 3vw;
+height: 3rem;
 border-radius: var(--border-one);
 border: none;
-background-color: #2a1770;
+background-color: var(--main-color);
 }
 #login-form-register>form>div>input::placeholder
 {
-    color:rgba(42, 23, 112, 0.7);
+    color:var(--main-color-gray);
     font-weight: 700;
-    font-size: 0.8vw;
+    font-size: 0.8rem;
     text-indent: 3%;
 }
 #login-form-register>form>input
 {
-    border-left: 5px solid #2a1770;
-    height: 2.5vw;
+
+    height: 2.5rem;
     background-color: #eff8ff;
 }
 
@@ -134,13 +136,14 @@ background-color: #2a1770;
     margin-bottom: 10%;
     width: 100%;
 }
-#login-form-register>form>div>input
+#main-login-box>input
 {
-height: 2.5vw;
+height: 2.5rem;
 border-radius: var(--border-one);
 font-weight: 200;
-font-size: 0.8vw;
+font-size: 0.8rem;
 border: none;
+border-left: 5px solid var(--main-color);
 margin: 1%;
 width: 80%;
 
@@ -150,28 +153,21 @@ box-shadow: 0px 1px 2px 0px gray;
 {
     display: flex;
     color: rgba(42, 23, 112, 0.7);
-    font-size: 0.8vw;
+    font-size: 0.8rem;
     width: 80%;
                
 }
 #login-form-register
 {
-    font-size: 1vw;
+    font-size: 1rem;
 }
-#login-form-register>hr
+#create-account-button
 {
-color:red;
-background-color: #2a1770;
-width: 40%;
-height: 0.05vw;
-transform: translateY(0.7vw);
-z-index: 0;
+    color: var(--main-color-gray);
+    width: 80%;
+    text-align: left;
 }
-#login-form-register>p
-{
-    font-size: 1.1vw;
-    text-decoration: underline;
-}
+
 footer
 {
 
