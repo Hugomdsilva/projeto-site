@@ -1,182 +1,62 @@
+
 *
 {
-    margin: 0;
+    --background-color: rgb(230, 236, 255);
+    --secondary-background-color: rgb(230, 236, 255);
     --border-one: 7px;
     --main-color: #2a1770;
     --main-color-gray: rgba(42, 23, 112, 0.7);
-}
+    --primary-font-size: 1rem;
+    --secondary-font-size: 0.8rem;
+    --third-font-size: 0.7rem;
+    --default-loginbox-width: 85%;
 
-body
-{
-    background-color: rgb(230, 236, 255);
-    display: flex;
-    flex-direction: column;
 }
-header
+a
 {
-    height: 10vh;
+    text-decoration: none;
+}
+.generic-input
+{
+    border: none;
+    border-left: 5px solid var(--main-color);
+    height: 2.5rem;
+    box-shadow: 0px 1px 4px 0px rgb(99, 99, 99);
+    border-radius: var(--border-one);
+    outline: none;
+    font-weight: 200;
+    font-size: 0.8rem;
 }
 .logo
 {
     width: 120px;
     height: 70px;
-    float: left;
 }
-#main-section
-{
-    width: 100vw;
-    height: 75vh;
-    padding: 2% 0;
-
-}
-#login-form-container
-{
-    display: flex;
-    flex-direction: row;
-    border-radius: var(--border-one);
-    transform: translateY(-50%);
-    top: 50%;
-    position: relative;
-    position: relative;
-    margin: auto;
-    width: 55rem;
-    height: 80rem;
-    min-width: 500px;
-    min-height: 200px;
-    max-width: 600px;
-    max-height: 400px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgb(175, 175, 175);
-}
-#login-form-container>div
-{
-    height: 100%;
-    
-}
-#login-form-login
-{
-    background-image: url(../../assets/login_page/login-background.png);
-    background-repeat: no-repeat;
-    background-size: 120%;
-    background-position-x: 50%;
-    background-position-y: center;
-    border-radius: 10px 0 0 10px;
-    width: 55%;
-    background-color: #eff8ff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-#login-form-register
-{
-    color: var(--main-color);
-    border-radius: 0 10px 10px 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-weight: 900;
-    font-size: 1.4rem;
-    position: relative;
-    justify-content: center;
-    width: 45%;
-    background-color: white;
-}
-#login-form-register>p
-{
-    font-size: 0.7rem;
-    width: 70%;
-    font-weight: 700;
-    letter-spacing: 0.05px;
-    text-align: center;
-}
-#login-form-register>form
-{
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    width: 100%;
-}
-#login-form-register>img
-{
-    transform: translateY(-30%);
-}
-#login-form-register>form>button
-{
-color: white;
-font-weight: 200;
-font-size: 0.8rem;
-width: 80%;
-height: 3rem;
-border-radius: var(--border-one);
-border: none;
-background-color: var(--main-color);
-}
-#login-form-register>form>div>input::placeholder
+.generic-input::placeholder
 {
     color:var(--main-color-gray);
     font-weight: 500;
     font-size: 0.8rem;
     text-indent: 3%;
 }
-#login-form-register>form>input
-{
 
-    height: 2.5rem;
-    background-color: #eff8ff;
+.primary-text.secondary-text
+{
+    color: var(--main-color);
 }
+.generic-container
+{
+    box-shadow: 0px 0px 10px 0px rgb(175, 175, 175);
+    border-radius: var(--border-one);
 
-#main-login-box
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    width: 100%;
 }
-#main-login-box>input
+.generic-button
 {
-height: 2.5rem;
-border-radius: var(--border-one);
-font-weight: 200;
-font-size: 0.8rem;
-border: none;
-border-left: 5px solid var(--main-color);
-margin: 1%;
-width: 80%;
-
-box-shadow: 0px 1px 2px 0px gray;
-}
-#login-form-register>form>div>span
-{
-    display: flex;
-    color: rgba(42, 23, 112, 0.7);
-    font-size: 0.7rem;
-    width: 80%;
-}
-#login-form-register>form>div>span>a
-{
-    margin-left: auto;
-    text-decoration: none;
-display: inline-block;
-}
-#login-form-register
-{
-    font-size: 1rem;
-}
-#create-account-button
-{
+    color: white;
+    font-weight: 200;
     font-size: 0.8rem;
-
-    color: var(--main-color-gray);
-    width: 80%;
-    text-align: center;
+    height: 3rem;
+    border-radius: var(--border-one);
+    border: none;
+    background-color: var(--main-color);
 }
-
-footer
-{
-
-}
-

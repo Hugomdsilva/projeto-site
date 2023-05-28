@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>European B.</title>
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/login.css"/>
     <script src="script/index.js" defer></script>
 </head>
 <body>
     <header>
         <img class="logo" src="../assets/general/logo.png"/>
     </header>
-    <section id="main-section">
-        <div id="login-form-container">
+    <section id="main-section" >
+        <div id="login-form-container" class="generic-container">
             <div id="login-form-login">
             
             </div>
             <div id="login-form-register">
-                <img src="../assets/general/logo.png" width="120px" height="70px" alt="">
-                Bem Vindo!
+                <img src="../assets/general/logo.png" class="logo" alt="">
+                <h1>Bem Vindo!</h1>
                 <p>
                     Entre já em sua conta european bank, utilize suas credenciais!
                 </p>
@@ -27,14 +28,14 @@
 
                     <div id="main-login-box">
 
-                        <input type="email" placeholder="E-mail" class="form-input" required>
-                        <input type="password" placeholder="Senha" class="form-input" required>
-                        <span><input type="checkbox">&ThinSpace; Lembrar de mim <a href="#">esqueceu a senha?</a> </span>
+                        <input type="email" placeholder="E-mail" class="generic-input" required>
+                        <input type="password" placeholder="Senha" class="generic-input" required>
+                        <span><input type="checkbox">&ThinSpace; Lembrar de mim <a href="../login_page/forgot_password.html">esqueceu a senha?</a> </span>
                     </div>
-                    <button>Entrar</button>
+                    <button class="generic-button">Entrar</button>
                 </form>
                 
-                <span id="create-account-button">Não tem conta? <a href="../register_page/register.html">registrar</a></span>
+                <span id="create-account-button">Não tem conta? <a href="../login_page/register.html">registrar</a></span>
         
             </div>
         </div>

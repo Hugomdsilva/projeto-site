@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>European B.</title>
     <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/register.css">
     <script src="script/index.js" defer></script>
 </head>
 <body>
@@ -13,26 +14,26 @@
         <img class="logo" src="../assets/general/logo.png"/>
     </header>
     <section id="main-section">
-        <div id="register-form-container">
-            <div id="register-form-register">
+        <div id="login-form-container" class="generic-container">
+            <div id="login-form-login">
             
             </div>
-            <div id="register-form">
-                <img src="../assets/general/logo.png" width="120px" height="70px" alt="">
-                Bem Vindo!
+            <div id="login-form">
+                <img src="../assets/general/logo.png" class="logo">
+                <h1>Bem Vindo!</h1>
                 <p>
                     Realize seu cadastro no European Bank e experimente os nossos serviços
                 </p>
                 <form action="POST">
 
-                    <div id="main-register-box">
-                        <input type="text" placeholder="Nome" class="form-input" required/>
-                        <input type="email" placeholder="E-mail" class="form-input" required/>
-                        <input type="password" placeholder="Senha" class="form-input" required/>
-                        <input type="password" placeholder="Comfirmar Senha" class="form-input" required/>
+                    <div id="main-login-box">
+                        <input type="text" placeholder="Nome" class="generic-input" required/>
+                        <input type="email" placeholder="E-mail" class="generic-input" required/>
+                        <input type="password" placeholder="Senha" class="generic-input" required/>
+                        <input type="password" placeholder="Comfirmar Senha" class="generic-input" required/>
                         <span><input type="checkbox">&ThinSpace; Lembrar de mim</span>
                     </div>
-                    <button>Começar
+                    <button class="generic-button">Começar
                     </button>
                 </form>
                 

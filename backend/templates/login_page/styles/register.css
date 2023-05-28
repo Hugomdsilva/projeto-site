@@ -1,0 +1,140 @@
+
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+header
+{
+    height: 10vh;
+}
+
+#main-section
+{
+    width: 100vw;
+    height: 75vh;
+    padding: 2% 0;
+
+}
+#login-form-container
+{
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+    margin: auto;
+    width: 55rem;
+    height: 80rem;
+    min-width: 500px;
+    min-height: 200px;
+    max-width: 600px;
+    max-height: 400px;
+
+}
+#login-form-container>div
+{
+    height: 100%;
+    
+}
+#login-form-login
+{
+    background-image: url(../../assets/register_page/register-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    border-radius: var(--border-one);
+    width: 55%;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login-form
+{
+    color: var(--main-color);
+    border-radius: var(--border-one);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 900;
+    font-size: var(--primary-font-size);
+    position: relative;
+    justify-content: center;
+    width: 45%;
+    background-color: white;
+}
+
+#login-form>p
+{
+    margin: 0.25rem 0;
+    font-size: var(--secondary-font-size);
+    width: var(--default-loginbox-width);
+    font-weight: 700;
+    letter-spacing: 0.05px;
+    text-align: center;
+}
+h1
+{
+    margin: 0;
+    font-size: var(--primary-font-size)
+}
+#login-form>form
+{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+#login-form>form>button
+{
+width: var(--default-loginbox-width);
+}
+
+#main-login-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.generic-input
+{
+height: 2.3rem;
+margin: 0.5%;
+width: var(--default-loginbox-width);
+}
+.generic-button
+{
+    height: 2.5rem;
+}
+#login-form>form>div>span
+{
+    display: flex;
+    margin: 0 0 0.34rem 0;
+    color: var(--main-color-gray);
+    font-size: var(--secondary-font-size);
+    width: var(--default-loginbox-width);
+               
+}
+#login-form-login
+{
+    font-size: 1rem;
+}
+#create-account-button
+{
+    font-size: var(--secondary-font-size);
+    color: var(--main-color-gray);
+    width: var(--default-loginbox-width);
+    text-align: left;
+}
+
+footer
+{
+
+}
+
