@@ -6,6 +6,8 @@ header
     display: flex;
     height: 40px;
     width: 100%;
+    position: fixed;
+    background-color: white;
 }
 header>*
 {
@@ -46,4 +48,35 @@ header>ul>li
     max-width: 120px;
     max-height: 75px;
   
+}
+section
+{
+    background-image: red;
+    background-image: url(../../assets/main_page/main-page-first-art.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#phrase_one
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    width: 50%;
+}
+#sub_phrase_one
+{
+    font-size: 1rem;
+}
+#phrase_one_container
+{
+      
+}
+#open-account-button
+{
+
 }
